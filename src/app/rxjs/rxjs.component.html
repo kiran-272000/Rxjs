@@ -1,0 +1,10 @@
+<p>rxjs works!</p>
+<p>{{agentName}}</p>
+
+<h6>{{order}}</h6>
+
+<button #mybutton (click)="rxjsEventObservable()">Click for observable</button>
+
+<form [formGroup]="simpleForm">
+    <input  formControlName="name" (keyup)="valueChange()" type="text"/>
+</form>
